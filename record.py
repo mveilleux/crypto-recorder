@@ -1,7 +1,6 @@
-import data
-import time
+import data, os, time
 
-DATABASE_DIR = 'db'
+DATABASE_DIR = os.path.dirname(os.path.realpath(__file__)) + '/db'
 
 symbols = ['BTC-ETH', 'USDT-BTC']
 
