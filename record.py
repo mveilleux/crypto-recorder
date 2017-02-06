@@ -2,7 +2,7 @@ import data, os, time
 
 DATABASE_DIR = os.path.dirname(os.path.realpath(__file__)) + '/db'
 
-symbols = ['BTC-ETH', 'USDT-BTC']
+symbols = ['BTC-ETH', 'USDT-BTC', 'BTC-SYS', 'BTC-ZEC', 'BTC-XMR']
 
 timestamp = str(int(time.time()))
 
